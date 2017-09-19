@@ -1,0 +1,10 @@
+sudo: required
+language: node_js
+node_js:
+  - '7'
+
+before_install:
+  - npm i
+
+script:
+  - npm run test
