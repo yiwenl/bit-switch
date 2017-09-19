@@ -1,6 +1,6 @@
 {
   "name": "bit-switch",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A helper class to store on/off states in one integer",
   "main": "build/bit-switch.js",
   "module": "src/bit-switch.js",
