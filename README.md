@@ -1,7 +1,4 @@
-[![Build Status](https://travis-ci.org/yiwenl/bit-switch.png?branch=master)](https://travis-ci.org/yiwenl/bit-switch)
-
-
-# Bit Switch
+# Bit Switch [![Build Status](https://travis-ci.org/yiwenl/bit-switch.png?branch=master)](https://travis-ci.org/yiwenl/bit-switch)
 A helper class to store on/off states in one integer.
 
 ### usage
