@@ -8,7 +8,7 @@ class BitSwitch {
 	set(mNumDigit, mValue = 1) {
 		this._value = this._value;
 
-		if(mValue == 0) {
+		if (mValue === 0) {
 			this._value = this._value & (0 << mNumDigit);
 		} else {
 			this._value = this._value | (1 << mNumDigit);
@@ -16,8 +16,7 @@ class BitSwitch {
 	}
 
 	get(mNumDigit) {
-
-		let value = this._value & ( 1 << mNumDigit);
+		let value = this._value & (1 << mNumDigit);
 		value = value >> mNumDigit;
 
 		return value === 1;
